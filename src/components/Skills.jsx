@@ -11,6 +11,8 @@ import Mongo from '../assets/mongo.png';
 import Express from '../assets/expressjs-icon.png';
 import Postman from '../assets/postman2.png';
 import Nodejs from '../assets/nodejs.png';
+import Firebaseicon from '../assets/firebase-icon.png';
+
 
 const Skills = () => {
     return (
@@ -70,6 +72,11 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='mx-auto max-w-full h-auto' src={Nodejs} alt="icono postman" />
                     <p className='my-4'>Nodejs</p>
+                </div>
+                
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Firebaseicon} alt="icono html" />
+                    <p className='my-4'>Firebase</p>
                 </div>
             </div>
         </div>

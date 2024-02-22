@@ -3,6 +3,14 @@ import Proyecto1 from '../assets/anime.png'
 import Proyecto2 from '../assets/carrito.png'
 import Proyecto3 from '../assets/clima.png'
 import Proyecto4 from '../assets/mern.png'
+import HTML from '../assets/html.png';
+import JavaScript from '../assets/javascript.png';
+import ReactImg from '../assets/react.png';
+import Mongo from '../assets/mongo.png';
+import Express from '../assets/express.png';
+import Postman from '../assets/postman2.png';
+import Nodejs from '../assets/nodejs.png';
+import Firebaseicon from '../assets/firebase-icon.png';
 
 const Works = () => {
     return (
@@ -27,6 +35,13 @@ const Works = () => {
                             <span className='text-2xl font-bold text-white tracking-wider'>
                             JavaScript + React
                             </span>
+                            {/** icons*/}
+                            <div className='flex items-center justify-center'>
+                    <img className='w-10 mx-auto' src={JavaScript} alt="icono html" />
+                    <img className='w-10 mx-auto' src={ReactImg} alt="icono html" />
+                    
+                </div>
+                                {/**  */}
 
                             <div className='pt-8 text-center'>
                                 <a href="https://anime-search-rose.vercel.app/" target="_blank" rel="noopener noreferrer" >
@@ -38,6 +53,16 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
+
+
+
+
+
+
+
+
+
+                    
                     <div style={{ backgroundImage: `url(${Proyecto2})` }} className='shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center  items-center mx-auto content-div'>
 
@@ -48,6 +73,13 @@ const Works = () => {
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 JavaScript + React
                             </span>
+                              {/** icons*/}
+                              <div className='flex items-center justify-center'>
+                    <img className='w-10 mx-auto' src={JavaScript} alt="icono html" />
+                    <img className='w-10 mx-auto' src={ReactImg} alt="icono html" />
+                    
+                </div>
+                                {/**  */}
 
                             <div className='pt-8 text-center'>
                                 <a href="https://carro-compra.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -69,6 +101,13 @@ const Works = () => {
                             <span className='text-2xl font-bold text-white tracking-wider'>
                             JavaScript + React
                             </span>
+                              {/** icons*/}
+                              <div className='flex items-center justify-center'>
+                    <img className='w-10 mx-auto' src={JavaScript} alt="icono html" />
+                    <img className='w-10 mx-auto' src={ReactImg} alt="icono html" />
+                    
+                </div>
+                                {/**  */}
 
                             <div className='pt-8 text-center'>
                                 <a href="https://aplicacion-clima-iota.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -88,12 +127,21 @@ const Works = () => {
 
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                JavaScript-React-Node<br/>
-                                Express-MongoDB
+                                MERN blog
                             </span>
-
+                              {/** icons*/}
+                              <div className='flex items-center justify-center'>
+                    <img className='w-10 mx-auto' src={JavaScript} alt="icono html" />
+                    <img className='w-10 mx-auto' src={ReactImg} alt="icono html" />
+                    <img className='w-10 mx-auto' src={Mongo} alt="icono html" />
+                    <img className='w-20 mx-auto' src={Express} alt="icono html" />
+                    <img className='w-20 mx-auto' src={Nodejs} alt="icono html" />
+                    <img className='w-10 mx-auto' src={Firebaseicon} alt="icono html" />
+                    
+                </div>
+                                {/**  */}
                             <div className='pt-8 text-center'>
-                                <a href="https://proyecto-blog-mern.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://udfh-blog.vercel.app/" target="_blank" rel="noopener noreferrer">
                                 <button className='rounded-lg px-4 py-3 m-2 bg-black text-white font-bold text-lg hover:bg-pink-600'>
                                         Demo
                                     </button>

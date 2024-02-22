@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa'
+import { FaBars, FaTimes, FaGithub, FaLinkedin, } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillBoxSeamFill, BsPersonVcard } from 'react-icons/bs'
 import { Link } from 'react-scroll'
@@ -79,9 +79,9 @@ export const Navbar = () => {
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0EC45E]'>
 
-                        <a className='flex justify-between items-center w-full text-gray-300'
-                            href="">
-                            Resume <BsPersonVcard size={30} />
+                        <a className='flex justify-between items-center w-full text-gray-300 '
+                            href="https://drive.google.com/file/d/1Q3b1PkxfhFf93aLdkFedky3Cq9bY49Cd/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            CV <BsPersonVcard size={30} />
                         </a>
                     </li>
                 </ul>
