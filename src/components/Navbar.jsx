@@ -9,40 +9,40 @@ export const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className='fixed w-full h-[40px] flex-direction-row justify-between items-center px-4 bg-[#0a192f] text-gray-300 '>
+        <div className='fixed w-full h-[40px] flex-direction-row justify-between items-center px-4 bg-[#212934] text-[#170f0a]'>
 
 
             {/* Menu */}
 
             <ul className='hidden md:flex h-full text-xl font-bold justify-end' >
-                <li className='flex items-center  rounded-l-lg hover:bg-pink-600 text-white'>
+                <li className='flex items-center  rounded-l-lg hover:bg-[#82b7a6] text-[#f4d286] border-b-4 border-pink-600 border-solid border-r-0 border-l-4'>
                     <Link to="home" smooth={true} duration={500}> Home
                     </Link>
                 </li>
-                <li className='flex items-center  hover:bg-pink-600 text-white'>
+                <li className='flex items-center  hover:bg-[#82b7a6] text-[#f4d286] border-b-4 border-pink-600'>
                     <Link to="about" smooth={true} duration={500}>About
                     </Link>
                 </li>
-                <li className='flex items-center hover:bg-pink-600 text-white'>
+                <li className='flex items-center hover:bg-[#82b7a6] text-[#f4d286] border-b-4 border-pink-600'>
                     <Link to="skills" smooth={true} duration={500}> Skills
                     </Link>
                 </li>
-                <li className='flex items-center hover:bg-pink-600 text-white'>
+                <li className='flex items-center hover:bg-[#82b7a6] text-[#f4d286] border-b-4 border-pink-600'>
                     <Link to="works" smooth={true} duration={500}> Work
                     </Link>
                 </li>
-                <li className='flex items-center rounded-r-lg hover:bg-pink-600 text-white'>
+                <li className='flex items-center rounded-r-lg hover:bg-[#82b7a6] text-[#f4d286] border-b-4 border-pink-600'>
                     <Link to="contact" smooth={true} duration={500}> Contact
                     </Link>
                 </li>
             </ul>
 
             {/* prueba */}
-            <div onClick={handleClick} className='md:hidden z-10'>
-                {!nav ? <FaBars /> : <FaTimes />}
+            <div onClick={handleClick} className='md:hidden z-10 '>
+                {!nav ? <FaBars style={{color: '#f4d286'}}/> : <FaTimes />}
             </div>
             {/* mobile */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#212934] text-[#f4d286] flex flex-col justify-center items-center'}>
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to="home" smooth={true} duration={500}> Home
                 </Link></li>
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to="about" smooth={true} duration={500}>About
@@ -60,7 +60,7 @@ export const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
 
                         <a className='flex justify-between items-center w-full text-gray-300'
-                            href="">
+                            href="https://www.linkedin.com/in/alejandro-pe%C3%B1a-fern%C3%A1ndez-614b452b3/" target="_blank" rel="noopener noreferrer">
                             Linkedin <FaLinkedin size={30} />
                         </a>
                     </li>

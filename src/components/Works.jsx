@@ -2,7 +2,7 @@ import React from 'react'
 import Proyecto1 from '../assets/anime.png'
 import Proyecto2 from '../assets/carrito.png'
 import Proyecto3 from '../assets/clima.png'
-import Proyecto4 from '../assets/mern.png'
+import Proyecto4 from '../assets/mern3.png'
 import HTML from '../assets/html.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
@@ -14,11 +14,11 @@ import Firebaseicon from '../assets/firebase-icon.png';
 
 const Works = () => {
     return (
-        <div name='works' className='w-full md:h-screen text-gray-300 bg-[#131254]'>
+        <div name='works' className='w-full md:h-screen text-[#f2ebe3] bg-[#212934]'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 '>Proyectos</p>
-                    <p className='py-4 text-2xl'>Proyectos en los cuales e trabajado</p>
+                    <p className='text-4xl font-bold inline border-b-4 text-[#f4d286] border-pink-600 '>Proyectos</p>
+                    <p className='py-4 text-2xl text-[#a89365]'>Proyectos en los cuales e trabajado</p>
                 </div>
 
                 {/* container */}
