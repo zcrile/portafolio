@@ -39,7 +39,7 @@ export const Navbar = () => {
 
             {/* prueba */}
             <div onClick={handleClick} className='md:hidden z-10 '>
-                {!nav ? <FaBars style={{color: '#f4d286'}}/> : <FaTimes />}
+                {!nav ? <FaBars style={{ color: '#f4d286' }} /> : <FaTimes />}
             </div>
             {/* mobile */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#212934] text-[#f4d286] flex flex-col justify-center items-center'}>
@@ -65,11 +65,11 @@ export const Navbar = () => {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-    <a className='flex justify-between items-center w-full text-gray-300'
-        href="https://github.com/zcrile" target="_blank" rel="noopener noreferrer">
-        GitHub <FaGithub size={30} />
-    </a>
-</li>
+                        <a className='flex justify-between items-center w-full text-gray-300'
+                            href="https://github.com/zcrile" target="_blank" rel="noopener noreferrer">
+                            GitHub <FaGithub size={30} />
+                        </a>
+                    </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#611FB6]'>
                         <Link to="contact" smooth={true} duration={500} className="w-full h-full flex justify-between items-center">
                             <a className='flex justify-between items-center w-full text-gray-300'>
@@ -81,7 +81,7 @@ export const Navbar = () => {
 
                         <a className='flex justify-between items-center w-full text-gray-300 '
                             href="https://drive.google.com/file/d/1Q3b1PkxfhFf93aLdkFedky3Cq9bY49Cd/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                            CV <BsPersonVcard size={30} />
+                            Curriculum <BsPersonVcard size={30} />
                         </a>
                     </li>
                 </ul>
