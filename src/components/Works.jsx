@@ -26,28 +26,32 @@ const Works = () => {
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4  pb-40'>
                     {/* grid */}
-                    <div style={{ backgroundImage: `url(${Proyecto1})` }} className='    group container rounded-md 
+                    
+
+                    <div style={{ backgroundImage: `url(${Proyecto4})` }} className='shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center  items-center mx-auto content-div'>
 
 
                         {/** efectos hover */}
 
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                Buscador de anime
+                        <div className='opacity-0 group-hover:opacity-100 '>
+                            <span className='text-2xl font-bold text-white tracking-wider flex justify-center items-center pb-2'>
+                                MERN con login y CRUD de posts<br /> primera carga un poco lenta esta alojado en render-vercel
                             </span>
+                            <br/>
                             {/** icons*/}
-                            <div className='flex items-center justify-center pt-8'>
-                                <img className='w-10 mx-auto' src={Cssimg} alt="icono html" />
+                            <div className='flex items-center justify-center  '>
                                 <img className='w-10 mx-auto' src={JavaScript} alt="icono html" />
-
                                 <img className='w-10 mx-auto' src={ReactImg} alt="icono html" />
+                                <img className='w-10 mx-auto' src={Mongo} alt="icono html" />
+                                <img className='w-20 mx-auto' src={Express} alt="icono html" />
+                                <img className='w-20 mx-auto' src={Nodejs} alt="icono html" />
+                                <img className='w-10 mx-auto' src={Firebaseicon} alt="icono html" />
 
                             </div>
                             {/**  */}
-
-                            <div className='pt-8 text-center'>
-                                <a href="https://anime-search-rose.vercel.app/" target="_blank" rel="noopener noreferrer" >
+                            <div className='pt-4 text-center'>
+                                <a href="https://udfh-blog.vercel.app/" target="_blank" rel="noopener noreferrer">
                                     <button className='rounded-lg px-4 py-3 m-2 bg-black text-white font-bold text-lg hover:bg-pink-600'>
                                         Demo
                                     </button>
@@ -56,8 +60,6 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-
-
 
 
 
@@ -124,30 +126,32 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    <div style={{ backgroundImage: `url(${Proyecto4})` }} className='shadow-lg shadow-[#040c16] group container rounded-md 
+                    
+
+
+
+                    <div style={{ backgroundImage: `url(${Proyecto1})` }} className='    group container rounded-md 
               flex justify-center  items-center mx-auto content-div'>
 
 
                         {/** efectos hover */}
 
-                        <div className='opacity-0 group-hover:opacity-100 '>
-                            <span className='text-2xl font-bold text-white tracking-wider flex justify-center items-center pb-2'>
-                                MERN con login y CRUD de posts<br /> primera carga un poco lenta esta alojado en render-vercel
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Buscador de anime
                             </span>
-                            <br/>
                             {/** icons*/}
-                            <div className='flex items-center justify-center  '>
+                            <div className='flex items-center justify-center pt-8'>
+                                <img className='w-10 mx-auto' src={Cssimg} alt="icono html" />
                                 <img className='w-10 mx-auto' src={JavaScript} alt="icono html" />
+
                                 <img className='w-10 mx-auto' src={ReactImg} alt="icono html" />
-                                <img className='w-10 mx-auto' src={Mongo} alt="icono html" />
-                                <img className='w-20 mx-auto' src={Express} alt="icono html" />
-                                <img className='w-20 mx-auto' src={Nodejs} alt="icono html" />
-                                <img className='w-10 mx-auto' src={Firebaseicon} alt="icono html" />
 
                             </div>
                             {/**  */}
-                            <div className='pt-4 text-center'>
-                                <a href="https://udfh-blog.vercel.app/" target="_blank" rel="noopener noreferrer">
+
+                            <div className='pt-8 text-center'>
+                                <a href="https://anime-search-rose.vercel.app/" target="_blank" rel="noopener noreferrer" >
                                     <button className='rounded-lg px-4 py-3 m-2 bg-black text-white font-bold text-lg hover:bg-pink-600'>
                                         Demo
                                     </button>
@@ -156,10 +160,6 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-
-
-
-
 
 
 
