@@ -36,7 +36,7 @@ const Works = () => {
 
                         <div className='opacity-0 group-hover:opacity-100 '>
                             <span className='text-2xl font-bold text-white tracking-wider flex justify-center items-center pb-2'>
-                                MERN con login y CRUD de posts<br /> primera carga un poco lenta esta alojado en render-vercel
+                                Blog MERN
                             </span>
                             <br/>
                             {/** icons*/}
