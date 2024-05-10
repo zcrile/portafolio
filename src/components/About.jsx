@@ -18,7 +18,7 @@ export const About = () => {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-3xl font-bold text-[#f4d286]'>
-              <p>Egresado de Ingenieria en computación e informatica</p>
+              <p>Titulado de Ingenieria en computación e informatica</p>
               <img src={IMG} alt="" className="mt-8 rounded-full" style={{ width: '25rem', height: '25rem', marginLeft: '50px' }} />
             </div>
             

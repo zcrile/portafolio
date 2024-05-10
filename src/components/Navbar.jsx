@@ -80,7 +80,7 @@ export const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0EC45E]'>
 
                         <a className='flex justify-between items-center w-full text-gray-300 '
-                            href="https://drive.google.com/file/d/111jCZ2-SXNz5SpG3oRGDzVuTjgYJbhSo/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                            href="https://drive.google.com/file/d/1IGwdw8VjCcOTWVIHTOBQ5pmymuTT4NBQ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                             Curriculum <BsPersonVcard size={30} />
                         </a>
                     </li>
