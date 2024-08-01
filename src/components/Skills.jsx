@@ -12,6 +12,8 @@ import Express from '../assets/expressjs-icon.png';
 import Postman from '../assets/postman2.png';
 import Nodejs from '../assets/nodejs.png';
 import Firebaseicon from '../assets/firebase-icon.png';
+import typescript from '../assets/typescript.png';
+import postgresql from '../assets/postgresql.png';
 
 
 const Skills = () => {
@@ -40,6 +42,10 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={ReactImg} alt="icono html" />
                     <p className='my-4'>React</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={typescript} alt="icono html" />
+                    <p className='my-4'>Typescript</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={GitHub} alt="icono html" />
@@ -77,6 +83,10 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Firebaseicon} alt="icono html" />
                     <p className='my-4'>Firebase</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={postgresql} alt="icono html" />
+                    <p className='my-4'>PostgreSQL</p>
                 </div>
             </div>
         </div>

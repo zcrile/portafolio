@@ -13,6 +13,7 @@ export const Home = () => {
                 </h1>
                 <h2 className='text-4xl mb-8 sm:text-7xl font-bold text-[#f4d286]'>
                     Desarrollor De Software
+                    FullStack
                 </h2>
                 
                 <div>

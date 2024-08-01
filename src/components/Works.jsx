@@ -1,5 +1,5 @@
 import React from 'react'
-import Proyecto1 from '../assets/anime.png'
+import Proyecto1 from '../assets/animegoist.png'
 import Proyecto2 from '../assets/carrito.png'
 import Proyecto3 from '../assets/clima.png'
 import Proyecto4 from '../assets/mern3.png'
@@ -8,10 +8,14 @@ import Cssimg from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Mongo from '../assets/mongo.png';
-import Express from '../assets/express.png';
+import Express from '../assets/expresss.png';
 import Postman from '../assets/postman2.png';
 import Nodejs from '../assets/nodejs.png';
+import Nodeee from '../assets/nodee.png';
 import Firebaseicon from '../assets/firebase-icon.png';
+import Typescript from '../assets/typescript.png'
+import PostgreSQL from '../assets/postgresql.png'
+
 
 const Works = () => {
     return (
@@ -24,9 +28,55 @@ const Works = () => {
 
                 {/* container */}
 
+
+
+
+
+                
+
                 <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4  pb-40'>
                     {/* grid */}
                     
+
+                    {/* -------------------------------------------------------------------- */}
+
+                    <div style={{ backgroundImage: `url(${Proyecto1})` }} className='    group container rounded-md 
+              flex justify-center  items-center mx-auto content-div'>
+
+
+                        {/** efectos hover */}
+
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                AnimeGoist
+                            </span>
+                            {/** icons*/}
+                            <div className='flex items-center justify-center pt-8'>
+                                <img className='w-10 mx-auto' src={Cssimg} alt="icono html" />
+                                <img className='w-10 mx-auto' src={Typescript} alt="icono html" />
+                                <img className='w-20 mx-auto' src={Nodeee} alt="icono html" />
+                                <img className='w-20 mx-auto' src={Express} alt="icono html" />
+                                
+
+                                <img className='w-10 mx-auto' src={ReactImg} alt="icono html" />
+                                <img className='w-20 mx-auto' src={PostgreSQL} alt="icono html" />
+
+                            </div>
+                            {/**  */}
+
+                            <div className='pt-8 text-center'>
+                                <a href="https://animegoist.vercel.app/" target="_blank" rel="noopener noreferrer" >
+                                    <button className='rounded-lg px-4 py-3 m-2 bg-black text-white font-bold text-lg hover:bg-pink-600'>
+                                        Demo
+                                    </button>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    {/* --------------------------------------------------------------- */}
 
                     <div style={{ backgroundImage: `url(${Proyecto4})` }} className='shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center  items-center mx-auto content-div'>
@@ -130,36 +180,7 @@ const Works = () => {
 
 
 
-                    <div style={{ backgroundImage: `url(${Proyecto1})` }} className='    group container rounded-md 
-              flex justify-center  items-center mx-auto content-div'>
-
-
-                        {/** efectos hover */}
-
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                Buscador de anime
-                            </span>
-                            {/** icons*/}
-                            <div className='flex items-center justify-center pt-8'>
-                                <img className='w-10 mx-auto' src={Cssimg} alt="icono html" />
-                                <img className='w-10 mx-auto' src={JavaScript} alt="icono html" />
-
-                                <img className='w-10 mx-auto' src={ReactImg} alt="icono html" />
-
-                            </div>
-                            {/**  */}
-
-                            <div className='pt-8 text-center'>
-                                <a href="https://anime-search-rose.vercel.app/" target="_blank" rel="noopener noreferrer" >
-                                    <button className='rounded-lg px-4 py-3 m-2 bg-black text-white font-bold text-lg hover:bg-pink-600'>
-                                        Demo
-                                    </button>
-                                </a>
-
-                            </div>
-                        </div>
-                    </div>
+                    
 
 
 
