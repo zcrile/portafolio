@@ -19,11 +19,11 @@ import PostgreSQL from '../assets/postgresql.png'
 
 const Works = () => {
     return (
-        <div name='works' className='w-full md:h-screen text-[#f2ebe3] bg-[#212934]'>
+        <div name='works' className='w-full h-auto bg-[#212934] text-gray-300 pt-8'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 text-[#f4d286] border-pink-600 '>Proyectos</p>
-                    <p className='py-4 text-2xl text-[#a89365]'>Proyectos en los cuales e trabajado</p>
+                    <p className='py-4 text-2xl text-[#a89365]'>Algunos de mis ultimos trabajos personales</p>
                 </div>
 
                 {/* container */}
@@ -40,14 +40,14 @@ const Works = () => {
 
                     {/* -------------------------------------------------------------------- */}
 
-                    <div style={{ backgroundImage: `url(${Proyecto1})` }} className='    group container rounded-md 
+                    <div style={{ backgroundImage: `url(${Proyecto1})` }} className='group container rounded-md 
               flex justify-center  items-center mx-auto content-div'>
 
 
                         {/** efectos hover */}
 
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
+                        <div className='opacity-0 group-hover:opacity-100 '>
+                            <span className='text-2xl font-bold flex justify-center items-center pb-2 text-white tracking-wider'>
                                 AnimeGoist
                             </span>
                             {/** icons*/}
@@ -66,7 +66,7 @@ const Works = () => {
 
                             <div className='pt-8 text-center'>
                                 <a href="https://animegoist.vercel.app/" target="_blank" rel="noopener noreferrer" >
-                                    <button className='rounded-lg px-4 py-3 m-2 bg-black text-white font-bold text-lg hover:bg-pink-600'>
+                                    <button className='rounded-lg px-4 py-3 m-2 bg-emerald-500 text-white font-bold text-lg hover:bg-pink-600'>
                                         Demo
                                     </button>
                                 </a>
@@ -78,7 +78,7 @@ const Works = () => {
 
                     {/* --------------------------------------------------------------- */}
 
-                    <div style={{ backgroundImage: `url(${Proyecto4})` }} className='shadow-lg shadow-[#040c16] group container rounded-md 
+                    <div style={{ backgroundImage: `url(${Proyecto4})` }} className='shadow-lg shadow-[#161404] group container rounded-md 
               flex justify-center  items-center mx-auto content-div'>
 
 
@@ -102,7 +102,7 @@ const Works = () => {
                             {/**  */}
                             <div className='pt-4 text-center'>
                                 <a href="https://udfh-blog.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                    <button className='rounded-lg px-4 py-3 m-2 bg-black text-white font-bold text-lg hover:bg-pink-600'>
+                                    <button className='rounded-lg px-4 py-3 m-2 bg-emerald-500 text-white font-bold text-lg hover:bg-pink-600'>
                                         Demo
                                     </button>
                                 </a>
@@ -139,7 +139,7 @@ const Works = () => {
 
                             <div className='pt-8 text-center'>
                                 <a href="https://carro-compra.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                    <button className='rounded-lg px-4 py-3 m-2 bg-black text-white font-bold text-lg hover:bg-pink-600'>
+                                    <button className='rounded-lg px-4 py-3 m-2 bg-emerald-500 text-white font-bold text-lg hover:bg-pink-600'>
                                         Demo
                                     </button>
                                 </a>
@@ -168,7 +168,7 @@ const Works = () => {
 
                             <div className='pt-8 text-center'>
                                 <a href="https://aplicacion-clima-iota.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                    <button className='rounded-lg px-4 py-3 m-2 bg-black text-white font-bold text-lg hover:bg-pink-600'>
+                                    <button className='rounded-lg px-4 py-3 m-2 bg-emerald-500 text-white font-bold text-lg hover:bg-pink-600'>
                                         Demo
                                     </button>
                                 </a>
